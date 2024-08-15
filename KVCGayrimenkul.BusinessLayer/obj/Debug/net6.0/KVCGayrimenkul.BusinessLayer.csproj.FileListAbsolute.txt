@@ -1,0 +1,17 @@
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\bin\Debug\net6.0\KVCGayrimenkul.BusinessLayer.deps.json
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\bin\Debug\net6.0\KVCGayrimenkul.BusinessLayer.dll
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\bin\Debug\net6.0\KVCGayrimenkul.BusinessLayer.pdb
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\bin\Debug\net6.0\KVCGayrimenkul.DataAccessLayer.dll
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\bin\Debug\net6.0\KVCGayrimenkul.EntityLayer.dll
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\bin\Debug\net6.0\KVCGayrimenkul.DataAccessLayer.pdb
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\bin\Debug\net6.0\KVCGayrimenkul.EntityLayer.pdb
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\obj\Debug\net6.0\KVCGayrimenkul.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\obj\Debug\net6.0\KVCGayrimenkul.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\obj\Debug\net6.0\KVCGayrimenkul.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\obj\Debug\net6.0\KVCGayrimenkul.BusinessLayer.AssemblyInfo.cs
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\obj\Debug\net6.0\KVCGayrimenkul.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\obj\Debug\net6.0\KVCGayrimenkul.BusinessLayer.csproj.CopyComplete
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\obj\Debug\net6.0\KVCGayrimenkul.BusinessLayer.dll
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\obj\Debug\net6.0\refint\KVCGayrimenkul.BusinessLayer.dll
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\obj\Debug\net6.0\KVCGayrimenkul.BusinessLayer.pdb
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\obj\Debug\net6.0\ref\KVCGayrimenkul.BusinessLayer.dll
