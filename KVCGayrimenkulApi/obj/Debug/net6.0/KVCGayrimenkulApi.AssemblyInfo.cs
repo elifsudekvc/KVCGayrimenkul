@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KVCGayrimenkulApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d07b95cb11951afd78979579004889a88c7455f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("KVCGayrimenkulApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KVCGayrimenkulApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

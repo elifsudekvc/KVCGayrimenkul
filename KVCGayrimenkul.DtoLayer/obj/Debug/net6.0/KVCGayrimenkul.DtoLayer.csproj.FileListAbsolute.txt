@@ -9,3 +9,4 @@ C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.DtoLayer\obj\De
 C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.DtoLayer\obj\Debug\net6.0\refint\KVCGayrimenkul.DtoLayer.dll
 C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.DtoLayer\obj\Debug\net6.0\KVCGayrimenkul.DtoLayer.pdb
 C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.DtoLayer\obj\Debug\net6.0\ref\KVCGayrimenkul.DtoLayer.dll
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.DtoLayer\obj\Debug\net6.0\KVCGayrimenkul.DtoLayer.sourcelink.json
