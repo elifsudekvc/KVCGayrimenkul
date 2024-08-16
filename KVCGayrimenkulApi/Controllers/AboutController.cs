@@ -45,11 +45,13 @@ namespace KVCGayrimenkulApi.Controllers
         {
             About about = new About()
             {
+                AboutID= updateAboutDto.AboutID,
                 Description = updateAboutDto.Description,
             };
             _aboutService.TUpdate(about);
             return Ok("Hakkımda alanı güncellendi.");
         }
+
         [HttpGet("GetAbout")]
         public IActionResult GetAbout(int id)
         {

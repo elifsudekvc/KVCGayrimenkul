@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\KVCGayrimenkul.EntityLayer",
-    "\\KVCGayrimenkul.EntityLayer\\Entities"
+    "\\KVCGayrimenkul.EntityLayer\\Entities",
+    "\\KVCGayrimenkulApi",
+    "\\KVCGayrimenkulApi\\Controllers"
   ],
-  "SelectedNode": "\\KVCGayrimenkul.sln",
+  "SelectedNode": "\\KVCGayrimenkulApi\\Controllers\\AboutController.cs",
   "PreviewInSolutionExplorer": false
 }
