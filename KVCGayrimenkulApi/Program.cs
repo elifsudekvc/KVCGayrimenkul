@@ -19,6 +19,18 @@ builder.Services.AddScoped<IMessageDal, EfMessageDal>();
 builder.Services.AddScoped<ICategoryService, CategoryManager>();
 builder.Services.AddScoped<ICategoryDal, EfCategoryDal>();
 
+builder.Services.AddScoped<IAdvertisementService, AdvertisementManager>();
+builder.Services.AddScoped<IAdvertisementDal, EfAdvertisementDal>();
+
+builder.Services.AddScoped<IAdvertisementTypeService, AdvertisementTypeManager>();
+builder.Services.AddScoped<IAdvertisementTypeDal, EfAdvertisementTypeDal>();
+
+builder.Services.AddScoped<IContactService, ContactManager>();
+builder.Services.AddScoped<IContactDal, EfContactDal>();
+
+builder.Services.AddScoped<ISocialMediaService, SocialMediaManager>();
+builder.Services.AddScoped<ISocialMediaDal, EfSocialMediaDal>();
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

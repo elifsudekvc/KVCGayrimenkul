@@ -9,36 +9,36 @@ using System.Threading.Tasks;
 
 namespace KVCGayrimenkul.BusinessLayer.Concrete
 {
-    public class AdvertisementTypeManager : IAdvertisementService
+    public class AdvertisementTypeManager : IAdvertisementTypeService
     {
-        private readonly IAdvertisementDal _advertisementTypeDal;
+        private readonly IAdvertisementTypeDal _advertisementTypeDal;
 
-        public AdvertisementTypeManager(IAdvertisementDal advertisementDal)
+        public AdvertisementTypeManager(IAdvertisementTypeDal advertisementTypeDal)
         {
-            _advertisementTypeDal = advertisementDal;
+            _advertisementTypeDal = advertisementTypeDal;
         }
 
-        public void TAdd(Advertisement entity)
+        public void TAdd(AdvertisementType entity)
         {
             _advertisementTypeDal.Add(entity);
         }
 
-        public void TDelete(Advertisement entity)
+        public void TDelete(AdvertisementType entity)
         {
             _advertisementTypeDal.Delete(entity);
         }
 
-        public Advertisement TGetByID(int id)
+        public AdvertisementType TGetByID(int id)
         {
             return _advertisementTypeDal.GetByID(id);
         }
 
-        public List<Advertisement> TGetListAll()
+        public List<AdvertisementType> TGetListAll()
         {
             return _advertisementTypeDal.GetListAll();
         }
 
-        public void TUpdate(Advertisement entity)
+        public void TUpdate(AdvertisementType entity)
         {
             _advertisementTypeDal.Update(entity);
         }

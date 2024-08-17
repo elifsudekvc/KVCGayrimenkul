@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace KVCGayrimenkul.BusinessLayer.Concrete
 {
-    public class AdvertisemetManager : IAdvertisementService
+    public class AdvertisementManager : IAdvertisementService
     {
         private readonly IAdvertisementDal _advertisementDal;
 
-        public AdvertisemetManager(IAdvertisementDal advertisementDal)
+        public AdvertisementManager(IAdvertisementDal advertisementDal)
         {
             _advertisementDal = advertisementDal;
         }

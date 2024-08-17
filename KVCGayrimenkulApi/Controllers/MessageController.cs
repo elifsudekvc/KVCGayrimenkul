@@ -1,4 +1,6 @@
-﻿using KVCGayrimenkul.BusinessLayer.Abstract;
+﻿using AutoMapper;
+using KVCGayrimenkul.BusinessLayer.Abstract;
+using KVCGayrimenkul.DtoLayer.AboutDto;
 using KVCGayrimenkul.DtoLayer.MessageDto;
 using KVCGayrimenkul.EntityLayer.Entities;
 using Microsoft.AspNetCore.Http;
@@ -11,58 +13,59 @@ namespace KVCGayrimenkulApi.Controllers
     public class MessageController : ControllerBase
     {
         private readonly IMessageService _messageService;
+        private readonly IMapper _mapper;
 
-        public MessageController(IMessageService messageService)
+        public MessageController(IMessageService messageService, IMapper mapper)
         {
             _messageService = messageService;
+            _mapper = mapper;
         }
+
         [HttpGet]
         public IActionResult MessageList()
         {
-            var values = _messageService.TGetListAll();
-            return Ok(values);
+            var value = _mapper.Map<List<ResultMessageDto>>(_messageService.TGetListAll());
+            return Ok(value);
         }
         [HttpPost]
         public IActionResult CreateMessage(CreateMessageDto createMessageDto)
         {
-            Message message = new Message()
+            _messageService.TAdd(new Message()
             {
                 Mail = createMessageDto.Mail,
                 Name = createMessageDto.Name,
                 PersonMessage = createMessageDto.PersonMessage,
                 Phone = createMessageDto.Phone,
-                SurName = createMessageDto.SurName,
-            };
-            _messageService.TAdd(message);
-            return Ok("Mesajınız iletildi");
+                SurName = createMessageDto.SurName
+            });
+            return Ok("Kategori eklendi.");
         }
         [HttpDelete]
         public IActionResult DeleteMessage(int id)
         {
             var value = _messageService.TGetByID(id);
             _messageService.TDelete(value);
-            return Ok("Mesaj Silindi");
-        }
-        [HttpPut]
-        public IActionResult UpdateMessage(UpdateMessageDto updateMessageDto)
-        {
-            Message message = new Message()
-            {
-                Mail = updateMessageDto.Mail,
-                Name = updateMessageDto.Name,
-                PersonMessage = updateMessageDto.PersonMessage,
-                Phone = updateMessageDto.Phone,
-                MessageID = updateMessageDto.MessageID,
-                SurName = updateMessageDto.SurName,
-            };
-            _messageService.TUpdate(message);
-            return Ok("Mesaj güncellendi.");
+            return Ok("Kategori silindi.");
         }
         [HttpGet("GetMessage")]
         public IActionResult GetMessage(int id)
         {
             var value = _messageService.TGetByID(id);
             return Ok(value);
+        }
+        [HttpPut]
+        public IActionResult UpdateMessage(UpdateMessageDto updateMessageDto)
+        {
+            _messageService.TUpdate(new Message()
+            {
+                MessageID = updateMessageDto.MessageID,
+                Name = updateMessageDto.Name,
+                PersonMessage = updateMessageDto.PersonMessage,
+                Phone = updateMessageDto.Phone,
+                SurName= updateMessageDto.SurName,
+                Mail = updateMessageDto.Mail
+            });
+            return Ok("Kategori güncellendi.");
         }
     }
 }
