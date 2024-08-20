@@ -16,3 +16,5 @@ C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.DataAccessLayer
 C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.DataAccessLayer\obj\Debug\net6.0\KVCGayrimenkul.DataAccessLayer.genruntimeconfig.cache
 C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.DataAccessLayer\obj\Debug\net6.0\ref\KVCGayrimenkul.DataAccessLayer.dll
 C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.DataAccessLayer\obj\Debug\net6.0\KVCGayrimenkul.DataAccessLayer.sourcelink.json
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.DataAccessLayer\bin\Debug\net6.0\KVCGayrimenkul.DtoLayer.dll
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.DataAccessLayer\bin\Debug\net6.0\KVCGayrimenkul.DtoLayer.pdb

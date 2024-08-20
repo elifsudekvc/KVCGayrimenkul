@@ -1,10 +1,12 @@
 ﻿using AutoMapper;
 using KVCGayrimenkul.BusinessLayer.Abstract;
+using KVCGayrimenkul.DataAccessLayer.Concrete;
 using KVCGayrimenkul.DtoLayer.AdvertisementDto;
 using KVCGayrimenkul.DtoLayer.CategoryDto;
 using KVCGayrimenkul.EntityLayer.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace KVCGayrimenkulApi.Controllers
 {
@@ -27,6 +29,26 @@ namespace KVCGayrimenkulApi.Controllers
             var value = _mapper.Map<List<ResultAdvertisementDto>>(_advertisementService.TGetListAll());
             return Ok(value);
         }
+
+        [HttpGet("AdvertisementWithCategory")]
+        public IActionResult AdvertisementWithCategory()
+        {
+            var context = new KVCGayrimenkulContext();
+            var values = context.Advertisements.Include(x => x.Category).Select(y => new ResultAdvertisementWithCategory
+            {
+                AdvertisementID = y.AdvertisementID,
+                AdvertisementName = y.AdvertisementName,
+                AdvertisementStatus = y.AdvertisementStatus,
+                Description = y.Description,
+                ImageUrl = y.ImageUrl,
+                Price = y.Price,
+                SquareMeters = y.SquareMeters,
+                CategoryName = y.Category.CategoryName
+            }).ToList();
+            return Ok(values.ToList());
+        }
+
+
         [HttpPost]
         public IActionResult CreateAdvertisement(CreateAdvertisementDto createAdvertisementDto)
         {

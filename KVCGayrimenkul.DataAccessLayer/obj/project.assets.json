@@ -783,6 +783,16 @@
           }
         }
       },
+      "KVCGayrimenkul.DtoLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/KVCGayrimenkul.DtoLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KVCGayrimenkul.DtoLayer.dll": {}
+        }
+      },
       "KVCGayrimenkul.EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2014,6 +2024,11 @@
         "version.txt"
       ]
     },
+    "KVCGayrimenkul.DtoLayer/1.0.0": {
+      "type": "project",
+      "path": "../KVCGayrimenkul.DtoLayer/KVCGayrimenkul.DtoLayer.csproj",
+      "msbuildProject": "../KVCGayrimenkul.DtoLayer/KVCGayrimenkul.DtoLayer.csproj"
+    },
     "KVCGayrimenkul.EntityLayer/1.0.0": {
       "type": "project",
       "path": "../KVCGayrimenkul.EntityLayer/KVCGayrimenkul.EntityLayer.csproj",
@@ -2022,6 +2037,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "KVCGayrimenkul.DtoLayer >= 1.0.0",
       "KVCGayrimenkul.EntityLayer >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.21",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.21",
@@ -2061,6 +2077,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkul.DtoLayer\\KVCGayrimenkul.DtoLayer.csproj": {
+              "projectPath": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkul.DtoLayer\\KVCGayrimenkul.DtoLayer.csproj"
+            },
             "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkul.EntityLayer\\KVCGayrimenkul.EntityLayer.csproj": {
               "projectPath": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkul.EntityLayer\\KVCGayrimenkul.EntityLayer.csproj"
             }

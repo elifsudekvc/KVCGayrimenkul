@@ -2,6 +2,7 @@
 using KVCGayrimenkul.DataAccessLayer.Concrete;
 using KVCGayrimenkul.DataAccessLayer.Repositories;
 using KVCGayrimenkul.EntityLayer.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,13 @@ namespace KVCGayrimenkul.DataAccessLayer.EntityFramework
     {
         public EfAdvertisementDal(KVCGayrimenkulContext context) : base(context)
         {
+        }
+
+        public List<Advertisement> GetAdvertisementsWithCategories()
+        {
+            var context = new KVCGayrimenkulContext();
+            var values=context.Advertisements.Include(x=>x.Category).ToList();
+            return values;
         }
     }
 }

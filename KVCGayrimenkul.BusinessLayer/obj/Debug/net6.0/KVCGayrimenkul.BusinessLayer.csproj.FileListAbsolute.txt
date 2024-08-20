@@ -16,3 +16,5 @@ C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\o
 C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\obj\Debug\net6.0\KVCGayrimenkul.BusinessLayer.pdb
 C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\obj\Debug\net6.0\ref\KVCGayrimenkul.BusinessLayer.dll
 C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\obj\Debug\net6.0\KVCGayrimenkul.BusinessLayer.sourcelink.json
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\bin\Debug\net6.0\KVCGayrimenkul.DtoLayer.dll
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.BusinessLayer\bin\Debug\net6.0\KVCGayrimenkul.DtoLayer.pdb

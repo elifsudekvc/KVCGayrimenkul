@@ -28,6 +28,11 @@ namespace KVCGayrimenkul.BusinessLayer.Concrete
             _advertisementDal.Delete(entity);
         }
 
+        public List<Advertisement> TGetAdvertisementsWithCategories()
+        {
+            return _advertisementDal.GetAdvertisementsWithCategories();
+        }
+
         public Advertisement TGetByID(int id)
         {
             return _advertisementDal.GetByID(id);

@@ -9,5 +9,6 @@ namespace KVCGayrimenkul.DataAccessLayer.Abstract
 {
     public interface IAdvertisementDal:IGenericDal<Advertisement>
     {
+        List<Advertisement> GetAdvertisementsWithCategories();
     }
 }

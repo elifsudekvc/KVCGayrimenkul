@@ -742,6 +742,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "KVCGayrimenkul.DtoLayer": "1.0.0",
           "KVCGayrimenkul.EntityLayer": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.21",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.21"
@@ -751,6 +752,16 @@
         },
         "runtime": {
           "bin/placeholder/KVCGayrimenkul.DataAccessLayer.dll": {}
+        }
+      },
+      "KVCGayrimenkul.DtoLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/KVCGayrimenkul.DtoLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KVCGayrimenkul.DtoLayer.dll": {}
         }
       },
       "KVCGayrimenkul.EntityLayer/1.0.0": {
@@ -1932,6 +1943,11 @@
       "type": "project",
       "path": "../KVCGayrimenkul.DataAccessLayer/KVCGayrimenkul.DataAccessLayer.csproj",
       "msbuildProject": "../KVCGayrimenkul.DataAccessLayer/KVCGayrimenkul.DataAccessLayer.csproj"
+    },
+    "KVCGayrimenkul.DtoLayer/1.0.0": {
+      "type": "project",
+      "path": "../KVCGayrimenkul.DtoLayer/KVCGayrimenkul.DtoLayer.csproj",
+      "msbuildProject": "../KVCGayrimenkul.DtoLayer/KVCGayrimenkul.DtoLayer.csproj"
     },
     "KVCGayrimenkul.EntityLayer/1.0.0": {
       "type": "project",

@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\KVCGayrimenkul.DtoLayer\KVCGayrimenkul.DtoLayer.csproj" />
     <ProjectReference Include="..\KVCGayrimenkul.EntityLayer\KVCGayrimenkul.EntityLayer.csproj" />
   </ItemGroup>
 

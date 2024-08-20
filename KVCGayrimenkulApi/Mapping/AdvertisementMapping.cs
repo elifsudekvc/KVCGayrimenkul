@@ -13,6 +13,7 @@ namespace KVCGayrimenkulApi.Mapping
             CreateMap<Advertisement, GetAdvertisementDto>().ReverseMap();
             CreateMap<Advertisement, CreateAdvertisementDto>().ReverseMap();
             CreateMap<Advertisement, UpdateAdvertisementDto>().ReverseMap();
+            CreateMap<Advertisement, ResultAdvertisementWithCategory>().ReverseMap();
         }
     }
 }

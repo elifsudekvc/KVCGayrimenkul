@@ -9,5 +9,6 @@ namespace KVCGayrimenkul.BusinessLayer.Abstract
 {
     public interface IAdvertisementService:IGenericService<Advertisement>
     {
+        List<Advertisement> TGetAdvertisementsWithCategories();
     }
 }

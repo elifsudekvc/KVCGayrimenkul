@@ -523,6 +523,7 @@
       },
       "KVCGayrimenkul.DataAccessLayer/1.0.0": {
         "dependencies": {
+          "KVCGayrimenkul.DtoLayer": "1.0.0",
           "KVCGayrimenkul.EntityLayer": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.21",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.21"

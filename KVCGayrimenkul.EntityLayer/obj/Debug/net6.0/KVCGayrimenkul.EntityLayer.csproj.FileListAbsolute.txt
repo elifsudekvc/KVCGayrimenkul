@@ -9,3 +9,4 @@ C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.EntityLayer\obj
 C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.EntityLayer\obj\Debug\net6.0\refint\KVCGayrimenkul.EntityLayer.dll
 C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.EntityLayer\obj\Debug\net6.0\KVCGayrimenkul.EntityLayer.pdb
 C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.EntityLayer\obj\Debug\net6.0\ref\KVCGayrimenkul.EntityLayer.dll
+C:\Users\eskvc\OneDrive\Masaüstü\KVCGayrimenkul\KVCGayrimenkul.EntityLayer\obj\Debug\net6.0\KVCGayrimenkul.EntityLayer.sourcelink.json
