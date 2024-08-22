@@ -17,6 +17,13 @@ namespace KVCGayrimenkul.DataAccessLayer.EntityFramework
         {
         }
 
+        public List<Advertisement> GetAdvertisementsWithAdvertisementTypes()
+        {
+            var context = new KVCGayrimenkulContext();
+            var values = context.Advertisements.Include(x => x.AdvertisementType).ToList();
+            return values;
+        }
+
         public List<Advertisement> GetAdvertisementsWithCategories()
         {
             var context = new KVCGayrimenkulContext();

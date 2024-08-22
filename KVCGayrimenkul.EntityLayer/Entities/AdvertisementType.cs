@@ -11,5 +11,7 @@ namespace KVCGayrimenkul.EntityLayer.Entities
         public int AdvertisementTypeID { get; set; }
         public string AdvertisementTypeName { get; set; }
         public bool AdvertisementTypeStatus { get; set; }
+
+        public List<Advertisement> Advertisements { get; set; }
     }
 }

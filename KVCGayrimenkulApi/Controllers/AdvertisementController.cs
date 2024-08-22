@@ -48,6 +48,24 @@ namespace KVCGayrimenkulApi.Controllers
             return Ok(values.ToList());
         }
 
+        [HttpGet("AdvertisementWithAdvertisementType")]
+        public IActionResult AdvertisementWithAdvertisementType()
+        {
+            var context = new KVCGayrimenkulContext();
+            var values = context.Advertisements.Include(x => x.AdvertisementType).Select(y => new ResultAdvertisementWithAdvertisementType
+            {
+                AdvertisementID = y.AdvertisementID,
+                AdvertisementName = y.AdvertisementName,
+                AdvertisementStatus = y.AdvertisementStatus,
+                Description = y.Description,
+                ImageUrl = y.ImageUrl,
+                Price = y.Price,
+                SquareMeters = y.SquareMeters,
+                AdvertisementTypeName = y.AdvertisementType.AdvertisementTypeName,
+            }).ToList();
+            return Ok(values.ToList());
+        }
+
 
         [HttpPost]
         public IActionResult CreateAdvertisement(CreateAdvertisementDto createAdvertisementDto)

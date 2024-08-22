@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KVCGayrimenkul.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be981347d0050b2299826f525536e93df5266b90")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14647c092ec1c21b644dc33d5abf0306cc2e02e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("KVCGayrimenkul.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KVCGayrimenkul.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
