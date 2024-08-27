@@ -2,10 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\KVCGayrimenkul.EntityLayer",
-    "\\KVCGayrimenkul.EntityLayer\\Entities",
     "\\KVCGayrimenkulApi",
-    "\\KVCGayrimenkulApi\\Controllers"
+    "\\KVCGayrimenkulApi\\Controllers",
+    "\\KVCGayrimenkulApi\\Mapping"
   ],
-  "SelectedNode": "\\KVCGayrimenkul.EntityLayer\\Entities\\AdvertisementType.cs",
+  "SelectedNode": "\\KVCGayrimenkulApi\\Mapping\\AdvertisementMapping.cs",
   "PreviewInSolutionExplorer": false
 }
