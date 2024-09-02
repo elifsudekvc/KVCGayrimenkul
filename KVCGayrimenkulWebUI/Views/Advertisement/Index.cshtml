@@ -1,0 +1,61 @@
+﻿@model List<ResultAdvertisementDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">İlan İşlemleri</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">İlan Listesi</div>
+					</div>
+					<div class="card-body">
+						<div class="card-sub">
+							İlan ile ilgili işlemleri aşağıdan gerçekleştirebilirsiniz.
+						</div>
+						<a href="/Advertisement/CreateAdvertisement/" class="btn btn-outline-info m-1">Yeni İlan Girişi</a>
+						<table class="table mt-3">
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">İlan Adı</th>
+									<th scope="col">Açıklama</th>
+									<th scope="col">m²</th>
+									<th scope="col">Fiyat</th>
+									<th scope="col">Kategori</th>
+									<th scope="col">Durum</th>
+									<th scope="col">Sil</th>
+									<th scope="col">Güncelle</th>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach (var item in Model)
+								{
+									<tr>
+										<td>@item.AdvertisementID</td>
+										<td>@item.AdvertisementName</td>
+										<td>@item.Description</td>
+										<td>@item.SquareMeters</td>
+										<td>@item.Price</td>
+										<td>@item.CategoryName</td>
+										<td>@item.AdvertisementStatus</td>
+										<td><a href="/Advertisement/DeleteAdvertisement/@item.AdvertisementID" class="btn btn-outline-danger">Sil</a></td>
+										<td><a href="/Advertisement/UpdateAdvertisement/@item.AdvertisementID" class="btn btn-outline-warning">Güncelle</a></td>
+									</tr>
+								}
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</div>
+

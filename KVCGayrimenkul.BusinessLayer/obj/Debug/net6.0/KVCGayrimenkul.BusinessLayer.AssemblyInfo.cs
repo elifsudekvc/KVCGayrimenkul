@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KVCGayrimenkul.BusinessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14647c092ec1c21b644dc33d5abf0306cc2e02e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e48c958bdea67f311925f3f654d47d2be62824a")]
 [assembly: System.Reflection.AssemblyProductAttribute("KVCGayrimenkul.BusinessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KVCGayrimenkul.BusinessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

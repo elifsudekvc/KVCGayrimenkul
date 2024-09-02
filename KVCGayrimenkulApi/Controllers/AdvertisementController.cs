@@ -77,11 +77,12 @@ namespace KVCGayrimenkulApi.Controllers
                 Description = createAdvertisementDto.Description,
                 ImageUrl = createAdvertisementDto.ImageUrl,
                 Price = createAdvertisementDto.Price,
-                SquareMeters = createAdvertisementDto.SquareMeters
-            });
+                SquareMeters = createAdvertisementDto.SquareMeters,
+                CategoryID = createAdvertisementDto.CategoryID
+			});
             return Ok("İlan eklendi.");
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteAdvertisement(int id)
         {
             var value = _advertisementService.TGetByID(id);

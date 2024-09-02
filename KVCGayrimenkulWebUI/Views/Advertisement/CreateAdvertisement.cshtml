@@ -1,0 +1,62 @@
+﻿@model CreateAdvertisementDto
+@{
+	ViewData["Title"] = "CreateAdvertisement";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">İlan İşlemleri</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<form method="post">
+					<div class="card">
+						<div class="card-header">
+							<div class="card-title">Yeni İlan Girişi</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group p-0">
+								<label for="advertisementname">İlan Adını Giriniz</label>
+								<input type="text" class="form-control" asp-for="AdvertisementName" id="advertisementname">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group p-0">
+								<label for="price">İlan Fiyatını Giriniz</label>
+								<input type="text" class="form-control" asp-for="Price" id="price">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group p-0">
+								<label for="squareMeters">İlan m² Giriniz</label>
+								<input type="text" class="form-control" asp-for="SquareMeters" id="squareMeters">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group p-0">
+								<label for="imageUrl">İlan Görselini Giriniz</label>
+								<input type="text" class="form-control" asp-for="ImageUrl" id="imageUrl">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group p-0">
+								<label for="category">İlan Kategorisini Seçiniz</label>
+								@Html.DropDownListFor(x=>x.CategoryID,(List<SelectListItem>)ViewBag.v,new {@class="form-control"})
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group p-0">
+								<label for="description">İlan Açıklamasını Giriniz</label>
+								<textarea class="form-control" asp-for="Description" id="description" rows="5"></textarea>
+							</div>
+						</div>
+						<div class="mb-4 mt-3 mx-3">
+							<button class="btn btn-outline-info">İlanı Ekle</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
