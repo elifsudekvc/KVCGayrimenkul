@@ -34,6 +34,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/AdvertisementType/CreateAdvertisementType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2ZXJ0aXNlbWVudFR5cGVcQ3JlYXRlQWR2ZXJ0aXNlbWVudFR5cGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/AdvertisementType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2ZXJ0aXNlbWVudFR5cGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/AdvertisementType/UpdateAdvertisementType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2ZXJ0aXNlbWVudFR5cGVcVXBkYXRlQWR2ZXJ0aXNlbWVudFR5cGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/Advertisement/CreateAdvertisement.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2ZXJ0aXNlbWVudFxDcmVhdGVBZHZlcnRpc2VtZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -54,12 +66,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/Contact/CreateContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDcmVhdGVDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/Contact/UpdateContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxVcGRhdGVDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/Message/CreateMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxDcmVhdGVNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/Message/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/Message/UpdateMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxVcGRhdGVNZXNzYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/Shared/Components/_LayoutFooterPartialComponent/Default.cshtml]
@@ -88,6 +124,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/SocialMedia/CreateSocialMedia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTWVkaWFcQ3JlYXRlU29jaWFsTWVkaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/SocialMedia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTWVkaWFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/SocialMedia/UpdateSocialMedia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTWVkaWFcVXBkYXRlU29jaWFsTWVkaWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/eskvc/OneDrive/Masaüstü/KVCGayrimenkul/KVCGayrimenkulWebUI/Views/_ViewImports.cshtml]

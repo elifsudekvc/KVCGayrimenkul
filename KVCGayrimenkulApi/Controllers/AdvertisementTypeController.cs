@@ -37,14 +37,14 @@ namespace KVCGayrimenkulApi.Controllers
             });
             return Ok("İlan tipi eklendi.");
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteAdvertisementType(int id)
         {
             var value = _advertisementTypeService.TGetByID(id);
             _advertisementTypeService.TDelete(value);
             return Ok("İlan tipi silindi.");
         }
-        [HttpGet("GetAdvertisementType")]
+        [HttpGet("{id}")]
         public IActionResult GetAdvertisementType(int id)
         {
             var value = _advertisementTypeService.TGetByID(id);

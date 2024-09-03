@@ -40,14 +40,14 @@ namespace KVCGayrimenkulApi.Controllers
             });
             return Ok("Kategori eklendi.");
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteMessage(int id)
         {
             var value = _messageService.TGetByID(id);
             _messageService.TDelete(value);
             return Ok("Kategori silindi.");
         }
-        [HttpGet("GetMessage")]
+        [HttpGet("{id}")]
         public IActionResult GetMessage(int id)
         {
             var value = _messageService.TGetByID(id);

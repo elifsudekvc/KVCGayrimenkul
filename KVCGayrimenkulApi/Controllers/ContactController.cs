@@ -38,14 +38,14 @@ namespace KVCGayrimenkulApi.Controllers
             });
             return Ok("İletişim Bilgisi eklendi.");
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteContact(int id)
         {
             var value = _contactService.TGetByID(id);
             _contactService.TDelete(value);
             return Ok("İletişim Bilgisi silindi.");
         }
-        [HttpGet("GetContact")]
+        [HttpGet("{id}")]
         public IActionResult GetContact(int id)
         {
             var value = _contactService.TGetByID(id);

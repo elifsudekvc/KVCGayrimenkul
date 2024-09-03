@@ -1,0 +1,58 @@
+﻿@model List<ResultMessageDto>
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Mesaj İşlemleri</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">Mesaj Listesi</div>
+					</div>
+					<div class="card-body">
+						<div class="card-sub">
+							Mesaj ile ilgili işlemleri aşağıdan gerçekleştirebilirsiniz.
+						</div>
+						<a href="/Message/CreateMessage/" class="btn btn-outline-info m-1">Yeni Mesaj Girişi</a>
+						<table class="table mt-3">
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">İsim</th>
+									<th scope="col">Soyisim</th>
+									<th scope="col">Numara</th>
+									<th scope="col">Mail</th>
+									<th scope="col">Mesaj</th>
+									<th scope="col">Sil</th>
+									<th scope="col">Güncelle</th>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach (var item in Model)
+								{
+									<tr>
+										<td>@item.MessageID</td>
+										<td>@item.Name</td>
+										<td>@item.SurName</td>
+										<td>@item.Phone</td>
+										<td>@item.Mail</td>
+										<td>@item.PersonMessage</td>
+										<td><a href="/Message/DeleteMessage/@item.MessageID" class="btn btn-outline-danger">Sil</a></td>
+										<td><a href="/Message/UpdateMessage/@item.MessageID" class="btn btn-outline-warning">Güncelle</a></td>
+									</tr>
+								}
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</div>
