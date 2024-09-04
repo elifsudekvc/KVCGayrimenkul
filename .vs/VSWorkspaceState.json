@@ -11,6 +11,6 @@
     "\\KVCGayrimenkulWebUI\\Views\\Advertisement",
     "\\KVCGayrimenkulWebUI\\Views\\Category"
   ],
-  "SelectedNode": "\\KVCGayrimenkulWebUI\\Views\\Advertisement\\CreateAdvertisement.cshtml",
+  "SelectedNode": "\\KVCGayrimenkulApi\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
