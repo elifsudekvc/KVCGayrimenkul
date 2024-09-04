@@ -10,5 +10,6 @@
 		public string ImageUrl { get; set; }
 		public bool AdvertisementStatus { get; set; }
 		public string CategoryName { get; set; }
+		public string AdvertisementTypeName { get; set; }
 	}
 }

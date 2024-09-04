@@ -28,6 +28,7 @@
 									<th scope="col">m²</th>
 									<th scope="col">Fiyat</th>
 									<th scope="col">Kategori</th>
+									<th scope="col">İlan Tipi</th>
 									<th scope="col">Durum</th>
 									<th scope="col">Sil</th>
 									<th scope="col">Güncelle</th>
@@ -41,8 +42,9 @@
 										<td>@item.AdvertisementName</td>
 										<td>@item.Description</td>
 										<td>@item.SquareMeters</td>
-										<td>@item.Price</td>
+										<td class="price-format">@item.Price</td> <!-- Fiyat için özel sınıf ekliyoruz -->
 										<td>@item.CategoryName</td>
+										<td>@item.AdvertisementTypeName</td>
 										<td>@item.AdvertisementStatus</td>
 										<td><a href="/Advertisement/DeleteAdvertisement/@item.AdvertisementID" class="btn btn-outline-danger">Sil</a></td>
 										<td><a href="/Advertisement/UpdateAdvertisement/@item.AdvertisementID" class="btn btn-outline-warning">Güncelle</a></td>
@@ -59,3 +61,15 @@
 	</div>
 </div>
 
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		const prices = document.querySelectorAll('.price-format');
+		prices.forEach(function (price) {
+			let value = price.textContent.trim(); // Boşlukları kaldırıyoruz
+			value = value.replace(/\./g, ''); // Mevcut noktaları kaldırıyoruz
+			value = value.replace(/\B(?=(\d{3})+(?!\d))/g, '.'); // 3 basamakta bir nokta ekliyoruz
+			price.textContent = value;
+		});
+	});
+
+</script>

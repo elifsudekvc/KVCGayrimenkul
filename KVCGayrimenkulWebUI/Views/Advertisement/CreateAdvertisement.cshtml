@@ -23,7 +23,7 @@
 						<div class="card-body">
 							<div class="form-group p-0">
 								<label for="price">İlan Fiyatını Giriniz</label>
-								<input type="number" class="form-control" asp-for="Price" id="price">
+								<input type="text" class="form-control" asp-for="Price" id="price">
 							</div>
 						</div>
 						<div class="card-body">
@@ -41,9 +41,16 @@
 						<div class="card-body">
 							<div class="form-group p-0">
 								<label for="category">İlan Kategorisini Seçiniz</label>
-								@Html.DropDownListFor(x=>x.CategoryID,(List<SelectListItem>)ViewBag.v,new {@class="form-control"})
+								@Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.CategoryList, new { @class = "form-control" })
 							</div>
 						</div>
+						<div class="card-body">
+							<div class="form-group p-0">
+								<label for="advertisementType">İlan Tipini Seçiniz</label>
+								@Html.DropDownListFor(x => x.AdvertisementTypeID, (List<SelectListItem>)ViewBag.AdvertisementTypeList, new { @class = "form-control" })
+							</div>
+						</div>
+
 						<div class="card-body">
 							<div class="form-group p-0">
 								<label for="description">İlan Açıklamasını Giriniz</label>

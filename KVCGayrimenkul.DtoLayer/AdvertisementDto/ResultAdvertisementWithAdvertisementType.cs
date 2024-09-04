@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KVCGayrimenkul.DtoLayer.AdvertisementDto
 {
-    public class ResultAdvertisementWithAdvertisementTypeAndCategory
+    public class ResultAdvertisementWithAdvertisementType
     {
         public int AdvertisementID { get; set; }
         public string AdvertisementName { get; set; }
@@ -16,5 +16,6 @@ namespace KVCGayrimenkul.DtoLayer.AdvertisementDto
         public string ImageUrl { get; set; }
         public bool AdvertisementStatus { get; set; }
         public string AdvertisementTypeName { get; set; }
-    }
+		public int AdvertisementTypeID { get; set; }
+	}
 }

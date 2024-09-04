@@ -49,6 +49,24 @@ namespace KVCGayrimenkulApi.Controllers
         }
 
 
+		[HttpGet("AdvertisementWithAdvertisementType")]
+		public IActionResult AdvertisementWithAdvertisementType()
+		{
+			var context = new KVCGayrimenkulContext();
+			var values = context.Advertisements.Include(x => x.AdvertisementType).Select(y => new ResultAdvertisementWithAdvertisementType
+			{
+				AdvertisementID = y.AdvertisementID,
+				AdvertisementName = y.AdvertisementName,
+				AdvertisementStatus = y.AdvertisementStatus,
+				Description = y.Description,
+				ImageUrl = y.ImageUrl,
+				Price = y.Price,
+				SquareMeters = y.SquareMeters,
+				AdvertisementTypeName = y.AdvertisementType.AdvertisementTypeName,
+			}).ToList();
+			return Ok(values.ToList());
+		}
+
 		[HttpGet("AdvertisementWithAdvertisementTypeAndCategory")]
 		public IActionResult AdvertisementWithAdvertisementTypeAndCategory()
 		{
@@ -63,6 +81,7 @@ namespace KVCGayrimenkulApi.Controllers
 				Price = y.Price,
 				SquareMeters = y.SquareMeters,
 				AdvertisementTypeName = y.AdvertisementType.AdvertisementTypeName,
+                CategoryName = y.Category.CategoryName
 			}).ToList();
 			return Ok(values.ToList());
 		}
@@ -78,7 +97,8 @@ namespace KVCGayrimenkulApi.Controllers
                 ImageUrl = createAdvertisementDto.ImageUrl,
                 Price = createAdvertisementDto.Price,
                 SquareMeters = createAdvertisementDto.SquareMeters,
-                CategoryID = createAdvertisementDto.CategoryID
+                CategoryID = createAdvertisementDto.CategoryID,
+                AdvertisementTypeID = createAdvertisementDto.AdvertisementTypeID
 			});
             return Ok("İlan eklendi.");
         }
@@ -89,7 +109,7 @@ namespace KVCGayrimenkulApi.Controllers
             _advertisementService.TDelete(value);
             return Ok("İlan silindi.");
         }
-        [HttpGet("GetAdvertisement")]
+        [HttpGet("{id}")]
         public IActionResult GetAdvertisement(int id)
         {
             var value = _advertisementService.TGetByID(id);
@@ -106,7 +126,9 @@ namespace KVCGayrimenkulApi.Controllers
                 ImageUrl=updateAdvertisementDto.ImageUrl,
                 Description = updateAdvertisementDto.Description,
                 AdvertisementStatus = updateAdvertisementDto.AdvertisementStatus,
-                AdvertisementName = updateAdvertisementDto.AdvertisementName
+                AdvertisementName = updateAdvertisementDto.AdvertisementName,
+                CategoryID = updateAdvertisementDto.CategoryID,
+                AdvertisementTypeID = updateAdvertisementDto.AdvertisementTypeID
             });
             return Ok("İlan güncellendi.");
         }

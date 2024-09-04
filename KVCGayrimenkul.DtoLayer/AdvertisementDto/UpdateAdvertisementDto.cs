@@ -16,5 +16,6 @@ namespace KVCGayrimenkul.DtoLayer.AdvertisementDto
         public string ImageUrl { get; set; }
         public bool AdvertisementStatus { get; set; }
 		public int CategoryID { get; set; }
+		public int AdvertisementTypeID { get; set; }
 	}
 }

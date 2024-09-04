@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\KVCGayrimenkul.EntityLayer",
-    "\\KVCGayrimenkul.EntityLayer\\Entities",
     "\\KVCGayrimenkulApi",
     "\\KVCGayrimenkulApi\\Controllers",
     "\\KVCGayrimenkulApi\\Mapping",
     "\\KVCGayrimenkulWebUI",
     "\\KVCGayrimenkulWebUI\\Controllers",
     "\\KVCGayrimenkulWebUI\\Views",
+    "\\KVCGayrimenkulWebUI\\Views\\Advertisement",
     "\\KVCGayrimenkulWebUI\\Views\\Category"
   ],
-  "SelectedNode": "\\KVCGayrimenkulWebUI\\Views\\Category\\Index.cshtml",
+  "SelectedNode": "\\KVCGayrimenkulWebUI\\Views\\Advertisement\\CreateAdvertisement.cshtml",
   "PreviewInSolutionExplorer": false
 }
