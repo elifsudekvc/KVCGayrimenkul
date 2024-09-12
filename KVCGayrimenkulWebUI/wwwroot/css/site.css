@@ -1,21 +1,6 @@
-html {
-  font-size: 14px;
-}
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
 
-html {
-  position: relative;
-  min-height: 100%;
-}
 
-body {
-  margin-bottom: 60px;
-}
 
 
 .color1 {
@@ -106,8 +91,8 @@ body {
 }
 
 .nav-link {
-    font-size: x-large;
-    font-weight: bolder;
+    font-size: 1.3rem;
+    font-weight: bold;
     margin: 8px;
     border-radius: 10px;
 }
@@ -189,14 +174,14 @@ a.Link {
     font-size: 1.5rem;
 }
 
-@media screen and (max-width: 1300px) {
+@@media screen and (max-width: 1300px) {
     .Title {
         left: 50%;
         top: 72%;
     }
 }
 
-@media screen and (max-width: 400px) {
+@@media screen and (max-width: 400px) {
     .kvcTitle {
         margin-left: 15px;
         font-size: large;

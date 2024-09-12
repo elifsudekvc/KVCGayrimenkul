@@ -1,21 +1,20 @@
-﻿
-<div class="top-line backgroundcolor1">
+﻿<div class="top-line backgroundcolor1">
     <div class="container d-flex justify-content-between align-items-center">
         <span class="text-white d-flex justify-content-start color4">
             <i class="color4 fa-solid fa-phone"></i> 0532 708 98 78
         </span>
         <div class="socialMedia d-flex">
-            <span><i class="fa-brands fa-instagram color4 m-2 fa-xl"></i></span>
-            <span><i class="fa-brands fa-facebook color4 m-2 fa-xl"></i></span>
-            <span><i class="fa-brands fa-linkedin color4 m-2 fa-xl"></i></span>
+            <span><i class="fab fa-instagram color4 m-2 fa-xl"></i></span>
+            <span><i class="fab fa-facebook color4 m-2 fa-xl"></i></span>
+            <span><i class="fab fa-linkedin color4 m-2 fa-xl"></i></span>
         </div>
     </div>
 </div>
 
 <nav class="navbar backgroundcolor2 navbar-expand-lg bg-body-tertiary">
     <div class="container">
-        <a href="/" class="Link navbar-brand color1">
-            <img class="logo" src="Picture/KVCLOGO2.png" alt="KVC Logo">
+        <a href="/" class="navbar-brand color1">
+            <img class="logo" src="../../Picture/KVCLOGO2.png" alt="KVC Logo" />
             <span class="kvcTitle color1">KVC GAYRİMENKUL</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,15 +23,212 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a href="/AdsPage" class="Link nav-link active color1">İlanlar</a>
+                    <a href="/AdsPage" class="nav-link active color1">İlanlar</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/AboutPage" class="Link color1 nav-link">Hakkımızda</a>
+                    <a href="/AboutPage" class="nav-link color1">Hakkımızda</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/ContactPage" class="Link nav-link color1">İletişim</a>
+                    <a href="/ContactPage" class="nav-link color1">İletişim</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+<script>
+    window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        const kvc = document.querySelector(".kvcTitle");
+        const navLinks = document.querySelectorAll(".nav-link");
+
+        if (window.scrollY > 290) {
+            navbar.classList.add("navbar-scrolled");
+            kvc.classList.add("navlink-scrolled");
+            navLinks.forEach((link) => link.classList.add("navlink-scrolled"));
+        } else {
+            navbar.classList.remove("navbar-scrolled");
+            kvc.classList.remove("navlink-scrolled");
+            navLinks.forEach((link) => link.classList.remove("navlink-scrolled"));
+        }
+    });
+
+</script>
+<style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+    .color1 {
+        color: #0D1926 !important;
+    }
+
+    .color2 {
+        color: #28333D !important;
+    }
+
+    .color3 {
+        color: #b6bbc4 !important;
+    }
+
+    .color4 {
+        color: #31d375 !important;
+    }
+
+    .color5 {
+        color: #ffffff !important;
+    }
+
+    .backgroundcolor1 {
+        background-color: #0D1926 !important;
+    }
+
+    .backgroundcolor2 {
+        background-color: #28333D !important;
+    }
+
+    .backgroundcolor3 {
+        background-color: #b6bbc4 !important;
+    }
+
+    .backgroundcolor4 {
+        background-color: #31d375 !important;
+    }
+
+    .backgroundcolor5 {
+        background-color: #ffffff !important;
+    }
+
+    .top-line {
+        position: sticky !important;
+        top: 0;
+        z-index: 2;
+        height: 40px;
+        align-content: center;
+        display: flex;
+    }
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.m-2 {
+  margin: 8px;
+}
+
+.fa-xl {
+  font-size: 24px;
+}
+
+.navbar {
+        position: fixed !important;
+        top: auto;
+        width: 100% !important;
+        background-color: rgba(13, 25, 38, 0) !important; /* Saydamlığı ayarla */
+        backdrop-filter: blur(9px) !important; /* Arka planı bulanıklaştır */
+        z-index: 2;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.kvcTitle {
+  font-size: 24px;
+}
+
+    .nav-link {
+        font-size: 1.3rem !important;
+        font-weight: bold !important;
+        margin: 8px !important;
+        border-radius: 10px !important;
+    }
+
+        .nav-link:hover {
+            background-color: #31d375 !important;
+            color: #ffffff !important;
+        }
+
+    .navbar-toggler {
+        color: #31d375 !important;
+        background-color: transparent !important;
+        border-color: #31d375 !important;
+        border-width: 3px !important;
+    }
+
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    .custom-toggler.navbar-toggler {
+        border-color: rgb(255, 255, 255) !important;
+        border-width: 2px !important;
+    }
+
+    .fa-phone {
+        margin-right: 15px;
+        margin-top: 4px;
+        margin-left: 1rem;
+    }
+
+    .fa-solid {
+        color: #ffffffe0;
+    }
+
+@@media (min-width: 992px) {
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
+
+@@media screen and (max-width: 400px) {
+  .kvcTitle {
+    margin-left: 15px;
+    font-size: large;
+  }
+  .nav-link{
+    font-size: large;
+  }
+  .logo {
+    display: none;
+  }
+  .Title {
+    font-size: 1.4rem;
+  }
+  .secondTitle {
+    font-size: 1rem;
+  }
+  .sliderImage {
+    height: auto;
+  }
+  .aboutcontainer{
+    padding: 1.5rem !important;
+  }
+}
+
+    .logo {
+        height: 9vh !important;
+    }
+.navbar-scrolled {
+        background-color: #28333D !important;
+}
+
+.navlink-scrolled {
+  color: #fff !important;
+}
+
+</style>

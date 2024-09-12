@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\KVCGayrimenkul.EntityLayer",
-    "\\KVCGayrimenkulApi",
-    "\\KVCGayrimenkulApi\\Controllers",
-    "\\KVCGayrimenkulApi\\Mapping",
     "\\KVCGayrimenkulWebUI",
-    "\\KVCGayrimenkulWebUI\\Controllers",
     "\\KVCGayrimenkulWebUI\\Views",
     "\\KVCGayrimenkulWebUI\\Views\\Advertisement",
-    "\\KVCGayrimenkulWebUI\\Views\\Category"
+    "\\KVCGayrimenkulWebUI\\Views\\Category",
+    "\\KVCGayrimenkulWebUI\\Views\\Default",
+    "\\KVCGayrimenkulWebUI\\Views\\Shared",
+    "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components",
+    "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components\\_UILayoutHeadComponentPartial",
+    "\\KVCGayrimenkulWebUI\\Views\\UILayout"
   ],
-  "SelectedNode": "\\KVCGayrimenkulApi\\Program.cs",
+  "SelectedNode": "\\KVCGayrimenkulWebUI\\Views\\Default\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

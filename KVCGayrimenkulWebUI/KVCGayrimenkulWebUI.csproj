@@ -14,6 +14,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\Picture\aboutus.jpg" />
+    <None Include="wwwroot\Picture\KVCLogo.jpg" />
+    <None Include="wwwroot\Picture\KVCLOGO2.png" />
+    <None Include="wwwroot\Picture\slider\slider1.jpg" />
+    <None Include="wwwroot\Picture\slider\slider2.jpg" />
+    <None Include="wwwroot\Picture\slider\slider3.jpg" />
+    <None Include="wwwroot\Picture\topPicture.jpg" />
     <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\.DS_Store" />
   </ItemGroup>
 

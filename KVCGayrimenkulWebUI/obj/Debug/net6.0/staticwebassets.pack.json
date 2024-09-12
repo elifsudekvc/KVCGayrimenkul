@@ -5,6 +5,34 @@
       "PackagePath": "staticwebassets\\KVCGayrimenkulWebUI.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\Picture\\KVCLOGO2.png",
+      "PackagePath": "staticwebassets\\Picture\\KVCLOGO2.png"
+    },
+    {
+      "Id": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\Picture\\KVCLogo.jpg",
+      "PackagePath": "staticwebassets\\Picture\\KVCLogo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\Picture\\aboutus.jpg",
+      "PackagePath": "staticwebassets\\Picture\\aboutus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\Picture\\slider\\slider1.jpg",
+      "PackagePath": "staticwebassets\\Picture\\slider\\slider1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\Picture\\slider\\slider2.jpg",
+      "PackagePath": "staticwebassets\\Picture\\slider\\slider2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\Picture\\slider\\slider3.jpg",
+      "PackagePath": "staticwebassets\\Picture\\slider\\slider3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\Picture\\topPicture.jpg",
+      "PackagePath": "staticwebassets\\Picture\\topPicture.jpg"
+    },
+    {
       "Id": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\LICENSE",
       "PackagePath": "staticwebassets\\Ready-Bootstrap-Dashboard-master"
     },
