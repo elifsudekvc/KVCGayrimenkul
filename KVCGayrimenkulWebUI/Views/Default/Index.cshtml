@@ -5,7 +5,7 @@
 }
 
 
-    <div class="slider-container">
+    <div class="slider-container" data-aos="fade-up">
         <div class="slider-content">
             <img src="~/Picture/slider/slider1.jpg"
                  alt="Slider Image"
@@ -16,19 +16,19 @@
                 <div class="secondTitle color4">Güvenilir Gayrimenkul Çözümleri</div>
                 <a href="/AdsPage" class="AdsLink color5 adsButton backgroundcolor4 btn btn-lg">Tüm İlanlar</a>
             </div>
-            <button class="leftRight" id="prevBtn">
+            <button class="leftRight" id="prevBtn" data-aos="fade-left">
                 <i class="fa-solid fa-chevron-left fa-2xl"></i>
             </button>
-            <button class="leftRight" id="nextBtn">
+            <button class="leftRight" id="nextBtn" data-aos="fade-right">
                 <i class="fa-solid fa-chevron-right fa-2xl"></i>
             </button>
         </div>
     </div>
     <!--ADS-->
-    <div class="Ads">
-        <p class="AdsTitle color1">Yeni İlanlar</p>
+<div class="Ads" data-aos="fade-up">
+        <p class="AdsTitle color1" >Yeni İlanlar</p>
 
-        <div class="AdsCard container" data-aos="fade-up">
+        <div class="AdsCard container">
             <div class="card">
             <img src="~/Picture/slider/slider1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -75,25 +75,51 @@
             </div>
         </div>
 
-    <a href="/AdsPage" class="Link nav-link AdsLink mb-4 active color5 adsButton backgroundcolor4 color1 btn btn-lg" data-aos="fade-up">Tüm İlanlar</a>
+    <a href="/AdsPage" class="Link nav-link AdsLink mb-4 active color5 adsButton backgroundcolor4 color1 btn btn-lg">Tüm İlanlar</a>
     </div>
     <div class="aboutContainer">
-        <div class="parallax"></div>
+    <div class="parallax" data-aos="fade-up"></div>
         <div class="aboutText" data-aos="fade-up">
             <h1 class="aboutTitle color4" data-aos="fade-up">Hakkımızda</h1>
             <p class="aboutSecondTitle" data-aos="fade-up">
                 Burada hakkımızda yazısı olacak.
             </p>
             <div class="contactLinkContainer" data-aos="fade-up">
-                <a href="/ContactPage" class="ContactLink" data-aos="fade-up">Bizimle İletişime Geçin</a>
+            <a href="/ContactPage" class="ContactLink Link nav-link active color5 ContactLink adsButton backgroundcolor4 color1 btn btn-lg" data-aos="fade-up">Bizimle İletişime Geçin</a>
             </div>
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-        AOS.init({ duration: 500 });
-    </script>
+<div class="satisfaction">
+    <div class="container text-center color1">
+        <div class="row">
+            <div class="col-12 col-sm-4" data-aos="fade-up">
+                <i class="fa-solid fa-user-group color4 mb-4 fa-2xl"></i>
+                <h3>50+</h3>
+                <span>Mutlu Müşteri</span>
+            </div>
+            <div class="col-12 col-sm-4" data-aos="fade-up">
+                <i class="fa-regular fa-calendar-check color4 mb-4 fa-2xl"></i>
+                <h3>20+</h3>
+                <span>Referans</span>
+            </div>
+            <div class="col-12 col-sm-4" data-aos="fade-up">
+                <i class="fa-solid fa-house color4 mb-4 fa-2xl"></i>
+                <h3>10</h3>
+                <span>İlan</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 800,  // Animasyon süresi (milisaniye)
+        easing: 'ease-in-out',  // Animasyon yumuşatma ayarı
+    });
+</script>
+
 
     <style>
         body {
@@ -138,9 +164,6 @@
             justify-content: center;
         }
 
-            .adsButton:hover {
-                background-color: #45a049;
-            }
 
         .AdsCard {
             display: flex;
@@ -286,6 +309,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         opacity: 0.8;
+        margin-top:1rem;
     }
 
     .aboutTitle {
