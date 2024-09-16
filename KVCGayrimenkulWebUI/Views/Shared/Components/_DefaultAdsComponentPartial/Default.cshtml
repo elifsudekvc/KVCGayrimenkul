@@ -1,0 +1,219 @@
+﻿<div class="Ads" data-aos="fade-up">
+    <p class="AdsTitle color1">Yeni İlanlar</p>
+
+    <div class="AdsCard container">
+        <div class="card">
+            <img src="~/Picture/slider/slider1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Villa</h5>
+                <p class="card-text">Some quick example text</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Satılık</li>
+                <li class="list-group-item">300m²</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link color4">Card link</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="~/Picture/slider/slider1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Villa</h5>
+                <p class="card-text">Some quick example text</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Satılık</li>
+                <li class="list-group-item">300m²</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link color4">Card link</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="~/Picture/slider/slider1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Villa</h5>
+                <p class="card-text">Some quick example text</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Satılık</li>
+                <li class="list-group-item">300m²</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link color4">Card link</a>
+            </div>
+        </div>
+    </div>
+
+    <a href="/AdsPage" class="Link nav-link AdsLink mb-4 active color5 adsButton backgroundcolor4 color1 btn btn-lg">Tüm İlanlar</a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 800,  // Animasyon süresi (milisaniye)
+        easing: 'ease-in-out',  // Animasyon yumuşatma ayarı
+    });
+</script>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+    .Ads {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AdsTitle {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-size: xx-large;
+        font-weight: 700;
+        color: #45a049 !important;
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .AdsCard {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 18rem;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        color: #666;
+    }
+
+    .list-group-item {
+        padding: 10px;
+        border-top: 1px solid #ddd;
+    }
+
+    .card-link {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        .card-link:hover {
+            text-decoration: underline;
+        }
+
+    @@media screen and (max-width: 1300px) {
+        .Title {
+            left: 50% !important;
+            top: 72% !important;
+        }
+    }
+
+    @@media screen and (max-width: 400px) {
+        .kvcTitle {
+            margin-left: 15px !important;
+            font-size: large !important;
+        }
+
+        .nav-link {
+            font-size: large !important;
+        }
+
+        .logo {
+            display: none !important;
+        }
+
+        .Title {
+            font-size: 1.6rem !important;
+        }
+
+        .secondTitle {
+            font-size: 1rem !important;
+        }
+
+        .sliderImage {
+            height: auto;
+        }
+
+        .aboutcontainer {
+            padding: 1.5rem !important;
+        }
+    }
+
+    .Title {
+        position: absolute;
+        top: 75%;
+        left: 22%;
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        background-color: #0d192688;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .secondTitle {
+        font-weight: 100;
+        font-size: 1.5rem;
+    }
+
+    .adsButton:hover {
+        background-color: #0D1926 !important;
+        color: #31d375 !important;
+    }
+
+    .AdsLink {
+        font-size: x-large;
+        width: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+        margin-top: 1rem;
+    }
+
+    #prevBtn {
+        left: 10px;
+    }
+
+    #nextBtn {
+        right: 10px;
+    }
+
+
+    .col-12 {
+        padding: 2.5rem;
+    }
+
+</style>

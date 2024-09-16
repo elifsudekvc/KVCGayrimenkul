@@ -1,0 +1,113 @@
+﻿
+<div class="aboutContainer">
+    <div class="parallax" data-aos="fade-up"></div>
+    <div class="aboutText" data-aos="fade-up">
+        <h1 class="aboutTitle color4" data-aos="fade-up">Hakkımızda</h1>
+        <p class="aboutSecondTitle" data-aos="fade-up">
+            Burada hakkımızda yazısı olacak.
+        </p>
+        <div class="contactLinkContainer" data-aos="fade-up">
+            <a href="/ContactPage" class="ContactLink Link nav-link active color5 ContactLink adsButton backgroundcolor4 color1 btn btn-lg" data-aos="fade-up">Bizimle İletişime Geçin</a>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 800,  // Animasyon süresi (milisaniye)
+        easing: 'ease-in-out',  // Animasyon yumuşatma ayarı
+    });
+</script>
+
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    @@media screen and (max-width: 1300px) {
+        .Title {
+            left: 50% !important;
+            top: 72% !important;
+        }
+    }
+
+    @@media screen and (max-width: 400px) {
+        .kvcTitle {
+            margin-left: 15px !important;
+            font-size: large !important;
+        }
+
+        .nav-link {
+            font-size: large !important;
+        }
+
+        .logo {
+            display: none !important;
+        }
+
+        .Title {
+            font-size: 1.6rem !important;
+        }
+
+        .secondTitle {
+            font-size: 1rem !important;
+        }
+
+        .sliderImage {
+            height: auto;
+        }
+
+        .aboutcontainer {
+            padding: 1.5rem !important;
+        }
+    }
+
+
+    .aboutContainer {
+        position: relative;
+        text-align: center;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .parallax {
+        background-image: url('/Picture/aboutus.jpg');
+        height: 28rem;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.8;
+        margin-top: 1rem;
+    }
+
+    .aboutTitle {
+        padding: 1.5rem;
+    }
+
+    .aboutSecondTitle {
+        font-size: large;
+    }
+
+    .aboutText {
+        position: relative;
+        z-index: 1;
+        color: #f0ece5;
+        top: -23rem;
+        width: 100%;
+        padding: 20px;
+        background-color: #0d1926a1;
+        margin-bottom: -19rem;
+    }
+
+    .col-12 {
+        padding: 2.5rem;
+    }
+
+</style>
