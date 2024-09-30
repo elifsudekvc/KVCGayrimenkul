@@ -3,14 +3,14 @@
     "",
     "\\KVCGayrimenkulWebUI",
     "\\KVCGayrimenkulWebUI\\Views",
-    "\\KVCGayrimenkulWebUI\\Views\\Advertisement",
     "\\KVCGayrimenkulWebUI\\Views\\Category",
     "\\KVCGayrimenkulWebUI\\Views\\Default",
     "\\KVCGayrimenkulWebUI\\Views\\Shared",
     "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components",
+    "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components\\_DefaultAdsComponentPartial",
     "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components\\_UILayoutHeadComponentPartial",
     "\\KVCGayrimenkulWebUI\\Views\\UILayout"
   ],
-  "SelectedNode": "\\KVCGayrimenkulWebUI\\Views\\Default\\Index.cshtml",
+  "SelectedNode": "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components\\_DefaultAdsComponentPartial\\Default.cshtml",
   "PreviewInSolutionExplorer": false
 }

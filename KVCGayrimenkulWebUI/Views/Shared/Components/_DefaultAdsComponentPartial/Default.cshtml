@@ -1,51 +1,29 @@
-﻿<div class="Ads" data-aos="fade-up">
+﻿@model List<ResultAdvertisementDto>
+<div class="Ads" data-aos="fade-up">
     <p class="AdsTitle color1">Yeni İlanlar</p>
 
     <div class="AdsCard container">
+        @foreach(var item in Model)
+        {
         <div class="card">
-            <img src="~/Picture/slider/slider1.jpg" class="card-img-top" alt="...">
+            <img src="@item.ImageUrl" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Villa</h5>
-                <p class="card-text">Some quick example text</p>
+                    <h5 class="card-title">
+                        @(item.AdvertisementName.Length > 25 ? item.AdvertisementName.Substring(0, 25) + "..." : item.AdvertisementName)
+                    </h5>
             </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item">Satılık</li>
-                <li class="list-group-item">300m²</li>
-            </ul>
-            <div class="card-body">
-                <a href="#" class="card-link color4">Card link</a>
-            </div>
-        </div>
+                    <li class="list-group-item">@item.CategoryName </li>
+                <li class="list-group-item">@item.AdvertisementTypeName </li>
+                    <li class="list-group-item">@item.SquareMeters m² (Brüt)</li>
+                    <li class="list-group-item priceFormat">@String.Format("{0:N0}", item.Price) TL</li>
 
-        <div class="card">
-            <img src="~/Picture/slider/slider1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Villa</h5>
-                <p class="card-text">Some quick example text</p>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Satılık</li>
-                <li class="list-group-item">300m²</li>
             </ul>
             <div class="card-body">
-                <a href="#" class="card-link color4">Card link</a>
+                <a href="#" class="card-link color4">İlan Detayına Git</a>
             </div>
         </div>
-
-        <div class="card">
-            <img src="~/Picture/slider/slider1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Villa</h5>
-                <p class="card-text">Some quick example text</p>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Satılık</li>
-                <li class="list-group-item">300m²</li>
-            </ul>
-            <div class="card-body">
-                <a href="#" class="card-link color4">Card link</a>
-            </div>
-        </div>
+        }
     </div>
 
     <a href="/AdsPage" class="Link nav-link AdsLink mb-4 active color5 adsButton backgroundcolor4 color1 btn btn-lg">Tüm İlanlar</a>
@@ -104,12 +82,14 @@
         }
 
     .card-body {
-        padding: 15px;
+        height:5rem;
+        margin-bottom:0.5rem;
     }
 
     .card-title {
         font-size: 1.5rem;
-        margin-bottom: 10px;
+        font-weight:500;
+        margin-left:-0.3rem;
     }
 
     .card-text {
@@ -120,16 +100,23 @@
     .list-group-item {
         padding: 10px;
         border-top: 1px solid #ddd;
+        font-size:1.1rem;
     }
 
     .card-link {
         color: #007bff;
         text-decoration: none;
+        margin-left: -0.3rem;
+        font-size:large;
     }
 
         .card-link:hover {
             text-decoration: underline;
         }
+
+    .priceFormat{
+        color: #910000;
+    }
 
     @@media screen and (max-width: 1300px) {
         .Title {
