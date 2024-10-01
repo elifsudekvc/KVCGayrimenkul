@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KVCGayrimenkulWebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7e719b1d0ac97d18b448530e497838ce704faf2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4428f2b24d079e143e718f2c6ddf89b98638c1d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("KVCGayrimenkulWebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KVCGayrimenkulWebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

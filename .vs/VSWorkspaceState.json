@@ -3,14 +3,14 @@
     "",
     "\\KVCGayrimenkulWebUI",
     "\\KVCGayrimenkulWebUI\\Views",
-    "\\KVCGayrimenkulWebUI\\Views\\Category",
-    "\\KVCGayrimenkulWebUI\\Views\\Default",
     "\\KVCGayrimenkulWebUI\\Views\\Shared",
     "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components",
     "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components\\_DefaultAdsComponentPartial",
     "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components\\_UILayoutHeadComponentPartial",
-    "\\KVCGayrimenkulWebUI\\Views\\UILayout"
+    "\\KVCGayrimenkulWebUI\\Views\\UILayout",
+    "\\KVCGayrimenkulWebUI\\wwwroot",
+    "\\KVCGayrimenkulWebUI\\wwwroot\\css"
   ],
-  "SelectedNode": "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components\\_DefaultAdsComponentPartial\\Default.cshtml",
+  "SelectedNode": "\\KVCGayrimenkulWebUI\\wwwroot\\css\\site.css",
   "PreviewInSolutionExplorer": false
 }

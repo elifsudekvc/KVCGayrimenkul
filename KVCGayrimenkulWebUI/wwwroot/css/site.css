@@ -1,4 +1,4 @@
-
+ï»¿
 
 
 
@@ -53,11 +53,11 @@ nav {
     position: fixed !important;
     top: auto;
     width: 100% !important;
-    background-color: rgba(13, 25, 38, 0) !important; /* Saydamlýðý ayarla */
-    backdrop-filter: blur(9px) !important; /* Arka planý bulanýklaþtýr */
+    background-color: rgba(13, 25, 38, 0) !important; /* SaydamlÃ½Ã°Ã½ ayarla */
+    backdrop-filter: blur(9px) !important; /* Arka planÃ½ bulanÃ½klaÃ¾tÃ½r */
     z-index: 2;
 }
-/* Navbar scroll edildikçe rengini deðiþtir */
+/* Navbar scroll edildikÃ§e rengini deÃ°iÃ¾tir */
 .navbar-scrolled {
     background-color: #28333D !important; /* Normal rengi */
 }
@@ -240,7 +240,7 @@ a.Link {
 .card {
     margin-bottom: 2rem;
     padding: 1rem;
-    height: 22rem;
+    height: auto !important;
 }
 
 .card-link {
