@@ -2,15 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\KVCGayrimenkulWebUI",
+    "\\KVCGayrimenkulWebUI\\ViewComponents",
+    "\\KVCGayrimenkulWebUI\\ViewComponents\\DefaultComponents",
     "\\KVCGayrimenkulWebUI\\Views",
     "\\KVCGayrimenkulWebUI\\Views\\Shared",
     "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components",
-    "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components\\_DefaultAdsComponentPartial",
     "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components\\_UILayoutHeadComponentPartial",
     "\\KVCGayrimenkulWebUI\\Views\\UILayout",
     "\\KVCGayrimenkulWebUI\\wwwroot",
     "\\KVCGayrimenkulWebUI\\wwwroot\\css"
   ],
-  "SelectedNode": "\\KVCGayrimenkulWebUI\\wwwroot\\css\\site.css",
+  "SelectedNode": "\\KVCGayrimenkulWebUI\\ViewComponents\\DefaultComponents\\_DefaultAboutComponentPartial.cs",
   "PreviewInSolutionExplorer": false
 }
