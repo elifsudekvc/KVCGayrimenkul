@@ -5,12 +5,12 @@
     "\\KVCGayrimenkulWebUI\\Views",
     "\\KVCGayrimenkulWebUI\\Views\\Shared",
     "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components",
-    "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components\\_DefaultAboutComponentPartial",
+    "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components\\_DefaultSatisfactionComponentPartial",
     "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components\\_UILayoutHeadComponentPartial",
     "\\KVCGayrimenkulWebUI\\Views\\UILayout",
     "\\KVCGayrimenkulWebUI\\wwwroot",
     "\\KVCGayrimenkulWebUI\\wwwroot\\css"
   ],
-  "SelectedNode": "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components\\_DefaultAboutComponentPartial\\Default.cshtml",
+  "SelectedNode": "\\KVCGayrimenkulWebUI\\Views\\Shared\\Components\\_DefaultSatisfactionComponentPartial\\Default.cshtml",
   "PreviewInSolutionExplorer": false
 }

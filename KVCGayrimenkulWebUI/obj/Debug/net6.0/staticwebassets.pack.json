@@ -9,8 +9,12 @@
       "PackagePath": "staticwebassets\\Picture\\KVCLOGO2.png"
     },
     {
-      "Id": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\Picture\\KVCLogo.jpg",
-      "PackagePath": "staticwebassets\\Picture\\KVCLogo.jpg"
+      "Id": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\Picture\\KVCLOGO3.png",
+      "PackagePath": "staticwebassets\\Picture\\KVCLOGO3.png"
+    },
+    {
+      "Id": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\Picture\\KVClogo.pdf.png",
+      "PackagePath": "staticwebassets\\Picture\\KVClogo.pdf.png"
     },
     {
       "Id": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\Picture\\aboutus.jpg",

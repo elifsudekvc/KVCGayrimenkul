@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <None Include="wwwroot\Picture\aboutus.jpg" />
-    <None Include="wwwroot\Picture\KVCLogo.jpg" />
     <None Include="wwwroot\Picture\KVCLOGO2.png" />
     <None Include="wwwroot\Picture\slider\slider1.jpg" />
     <None Include="wwwroot\Picture\slider\slider2.jpg" />

@@ -1,30 +1,111 @@
-﻿<footer>
-    <div class="footer backgroundcolor2">
-        <div class="container text-center color4">
-            <div class="row">
-                <div class="col-12 col-sm-4">
-                    <h5 class="footerTitle">KVC Gayrimenkul Ailesi olarak Güven ve Başarıyı Birlikte İnşa Ediyoruz</h5>
-                    <p>KVC Gayrimenkul, hayallerinizi gerçeğe dönüştürmek için burada! Geniş portföyümüzle, ideal evinizi veya yatırımınızı bulmanıza yardımcı olmak için buradayız. Bize ulaşın ve mükemmel gayrimenkulü keşfedin!</p>
-                </div>
-                <div class="col-12 col-sm-4">
-                    <h5 class="footerTitle">İletişim</h5>
-                    <p>Mail: abc@gmail.com</p>
-                    <p>Adres:</p>
-                    <p>Telefon: 54943953</p>
-                    <p>Sahibinden:</p>
-                </div>
-                <div class="col-12 col-sm-4">
-                    <h5 class="footerTitle mb-4">Sosyal Medya</h5>
-                    <span><i class="fas fa-envelope m-2 color4 fa-xl"></i></span>
-                    <span><i class="fab fa-instagram m-2 fa-xl"></i></span>
-                    <span><i class="fab fa-facebook m-2 fa-xl"></i></span>
+﻿@model List<ResultContactDto>
+@foreach(var item in Model){
+    <footer>
+        <div class="footer backgroundcolor2">
+            <div class="container text-center color4">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <img class="logo logoFooter" src="../../Picture/KVClogo.pdf.png" alt="KVC Logo" />
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <h5 class="footerTitle">KVC Gayrimenkul Ailesi olarak Güven ve Başarıyı Birlikte İnşa Ediyoruz</h5>
+                        <p>@item.FooterDescription</p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <h5 class="footerTitle">İletişim</h5>
+                        <p><i class="fas fa-envelope"></i>  Mail: @item.Mail</p>
+                        <p><i class="fas fa-phone phone"></i> Telefon: @item.Phone</p>
+                        <p><i class="fas fa-location-dot"></i>  Adres: @item.Location</p>
+                        <div class="social-icons text-left">
+                            <span><i class="fab fa-instagram m-2 fa-xl"></i></span>
+                            <span><i class="fab fa-facebook m-2 fa-xl"></i></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="backgroundcolor1">
-        <div class="container text-white d-flex justify-content-start py-2 color4 subLine">
-            © KVC Gayrimenkul - Tüm Hakları Saklıdır.
+        <div class="backgroundcolor1">
+            <div class="container text-white d-flex justify-content-start py-4 color4 subLine">
+                © KVC Gayrimenkul - Tüm Hakları Saklıdır.
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
+}
+<style>
+    .footerTitle {
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    .footer p {
+        margin-top: 5px;
+        text-align: left;
+    }
+
+    .footer {
+        padding: 20px 0;
+        text-align: left;
+    }
+
+    .social-icons {
+        display: flex; 
+        justify-content: flex-start;
+        margin-left:-1.2rem;
+    }
+
+        .social-icons span {
+            margin-top:1rem;
+            margin-left:1rem;
+        }
+        .phone{
+            margin-left:-2px;
+            margin-right:-1px;
+        }
+
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+    }
+
+    .logoFooter {
+        height: 15rem !important;
+        width: auto;
+        max-width: 100%; 
+        object-fit: contain;
+    }
+
+    .subLine{
+        font-size:large !important;
+    }
+
+    .footerTitle {
+        margin-top: 10px; /* Başlığın üst kısmına boşluk ekle */
+    }
+
+    .footer p {
+        margin-top: 5px; /* Paragrafların üst kısmına boşluk ekle */
+    }
+
+    .footer {
+        padding: 20px 0; /* Footer'ın üst ve alt kısımlarına boşluk ekle */
+    }
+
+    .footerTitle {
+        font-size: x-large;
+        font-weight: 600;
+        margin-bottom:1rem;
+    }
+
+    @@media screen and (max-width: 450px) {
+
+        .logoFooter {
+            display:flex !important;
+            height: 10rem !important;
+            width: auto;
+            max-width: 100%;
+            object-fit: contain;
+        }
+
+
+    }
+</style>

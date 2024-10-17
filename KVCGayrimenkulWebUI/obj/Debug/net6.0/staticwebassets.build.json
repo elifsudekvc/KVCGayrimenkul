@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aLCeuOHX9KwefpX/PfKTotqnvDHv5JCJ2FtzMTysTss=",
+  "Hash": "nHFzb4sGchocz9m+UknRpK9PgIGyYg93ZDcHSFbFK/c=",
   "Source": "KVCGayrimenkulWebUI",
   "BasePath": "_content/KVCGayrimenkulWebUI",
   "Mode": "Default",
@@ -1214,12 +1214,12 @@
       "OriginalItemSpec": "wwwroot\\Picture\\aboutus.jpg"
     },
     {
-      "Identity": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\Picture\\KVCLogo.jpg",
+      "Identity": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\Picture\\KVClogo.pdf.png",
       "SourceId": "KVCGayrimenkulWebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\",
       "BasePath": "_content/KVCGayrimenkulWebUI",
-      "RelativePath": "Picture/KVCLogo.jpg",
+      "RelativePath": "Picture/KVClogo.pdf.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1230,7 +1230,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Picture\\KVCLogo.jpg"
+      "OriginalItemSpec": "wwwroot\\Picture\\KVClogo.pdf.png"
     },
     {
       "Identity": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\Picture\\KVCLOGO2.png",
@@ -1250,6 +1250,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Picture\\KVCLOGO2.png"
+    },
+    {
+      "Identity": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\Picture\\KVCLOGO3.png",
+      "SourceId": "KVCGayrimenkulWebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\",
+      "BasePath": "_content/KVCGayrimenkulWebUI",
+      "RelativePath": "Picture/KVCLOGO3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Picture\\KVCLOGO3.png"
     },
     {
       "Identity": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\KVCGayrimenkul\\KVCGayrimenkulWebUI\\wwwroot\\Picture\\slider\\slider1.jpg",

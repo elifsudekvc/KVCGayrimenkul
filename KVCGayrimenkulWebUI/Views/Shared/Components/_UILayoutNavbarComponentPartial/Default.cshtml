@@ -14,48 +14,85 @@
 <nav class="navbar backgroundcolor2 navbar-expand-lg bg-body-tertiary">
     <div class="container">
         <a href="/Default/Index" class="navbar-brand color1">
-            <img class="logo" src="../../Picture/KVCLOGO2.png" alt="KVC Logo" />
+            <img class="logo" src="../../Picture/KVCLOGO3.png" alt="KVC Logo" />
             <span class="kvcTitle color1">KVC GAYRİMENKUL</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span>
+                <i class="fas fa-bars" style="color:#31d375; font-size:20px; margin-top:2px;"></i>
+            </span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item container">
-                    <a href="/AdvertisementUI/Index" class="nav-link active color1">İlanlar</a>
+                <li class="nav-item">
+                    <a href="/Default/Index" class="nav-link color1">Ana Sayfa</a>
                 </li>
-                <li class="nav-item container">
+                <li class="nav-item">
+                    <a href="/AdvertisementUI/Index" class="nav-link color1">İlanlar</a>
+                </li>
+                <li class="nav-item">
                     <a href="/AboutUI/Index" class="nav-link color1">Hakkımızda</a>
                 </li>
-                <li class="nav-item container">
+                <li class="nav-item">
                     <a href="/ContactUI/Index" class="nav-link color1">İletişim</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
 <script>
     window.addEventListener("scroll", function () {
         const navbar = document.querySelector(".navbar");
         const kvc = document.querySelector(".kvcTitle");
         const navLinks = document.querySelectorAll(".nav-link");
+        const logo = document.querySelector(".logo");
 
-        if (window.scrollY > 290) {
+        if (window.scrollY > 800) {
             navbar.classList.add("navbar-scrolled");
             kvc.classList.add("navlink-scrolled");
             navLinks.forEach((link) => link.classList.add("navlink-scrolled"));
+            logo.src = "../../Picture/KVCLOGO2.png";
         } else {
             navbar.classList.remove("navbar-scrolled");
             kvc.classList.remove("navlink-scrolled");
             navLinks.forEach((link) => link.classList.remove("navlink-scrolled"));
+            logo.src = "../../Picture/KVCLOGO3.png";
         }
     });
 
+    document.addEventListener("DOMContentLoaded", function () {
+        const togglerButton = document.querySelector(".navbar-toggler");
+        const togglerIcon = togglerButton.querySelector("i");
+        const navbarContent = document.querySelector("#navbarSupportedContent");
+
+        togglerButton.addEventListener("click", function () {
+            // Tıklama anında hemen ikonu değiştir
+            if (togglerIcon.classList.contains("fa-bars")) {
+                togglerIcon.classList.remove("fa-bars");
+                togglerIcon.classList.add("fa-times");
+            } else {
+                togglerIcon.classList.remove("fa-times");
+                togglerIcon.classList.add("fa-bars");
+            }
+        });
+
+        // Menü kapandığında iconu tekrar 'bars' yap
+        navbarContent.addEventListener('hidden.bs.collapse', function () {
+            togglerIcon.classList.remove("fa-times");
+            togglerIcon.classList.add("fa-bars");
+        });
+
+        // Menü açıldığında iconu 'times' yap
+        navbarContent.addEventListener('shown.bs.collapse', function () {
+            togglerIcon.classList.remove("fa-bars");
+            togglerIcon.classList.add("fa-times");
+        });
+    });
 </script>
 <style>
     body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -85,7 +122,7 @@
     }
 
     .backgroundcolor2 {
-        background-color: #28333D !important;
+        background-color: #2F3541 !important;
     }
 
     .backgroundcolor3 {
@@ -108,6 +145,22 @@
         align-content: center;
         display: flex;
     }
+
+    .nav-item {
+        margin-left: 15px;
+    }
+
+    .nav-link {
+        font-size: 1.3rem !important;
+        font-weight: bold !important;
+        margin: 8px !important;
+        border-radius: 10px !important;
+    }
+
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+
 
 .d-flex {
   display: flex;
@@ -170,20 +223,14 @@
         border-width: 3px !important;
     }
 
-    .custom-toggler .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    }
+    
 
+   
     .custom-toggler.navbar-toggler {
         border-color: rgb(255, 255, 255) !important;
         border-width: 2px !important;
     }
 
-    .fa-phone {
-        margin-right: 15px;
-        margin-top: 4px;
-        margin-left: 1rem;
-    }
 
     .fa-solid {
         color: #ffffffe0;
@@ -201,7 +248,7 @@
     font-size: large;
   }
   .nav-link{
-    font-size: large;
+    font-size: 1.1rem !important;
   }
   .logo {
     display: none;
@@ -220,11 +267,15 @@
   }
 }
 
+    .nav-link:hover {
+        background-color: unset !important;
+        color: unset !important;
+    }
     .logo {
         height: 9vh !important;
     }
 .navbar-scrolled {
-        background-color: #28333D !important;
+        background-color: #303642 !important;
 }
 
 .navlink-scrolled {
